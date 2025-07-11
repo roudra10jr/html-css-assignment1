@@ -235,3 +235,49 @@ nav{
     border: 1px solid black;
     border-style: dashed;
 }
+
+/* footer styles */
+footer{
+    margin-bottom: 100px;
+}
+.footer-one{
+    max-width: 1140px;
+    max-height: 632px;
+    display: flex;
+    gap: 115px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer-heading{
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 18px;
+}
+.form-group label {
+    font-size: 18px;
+    color: #000000; 
+    margin-bottom: 8px; 
+    font-weight: 500;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+    margin-top: 100px;
+}
+.footer-one input[type="email"], .footer-one input[type="text"], .footer-one textarea {
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    box-shadow: #4E47FF;
+}
