@@ -22,7 +22,9 @@
     border-radius: 10px;
     border: none;
 }
-
+span{
+    display: inline-block;
+}
 
 .btn-primary:hover{
     background-color: turquoise;
@@ -32,9 +34,10 @@
     color: #4E47FF;
 }
 
-/* header{
+header{
+    height: 550px;
     background-image: url('../Assets/Hero-bg.png');
-} */
+}
 /* nav styles */
 nav{
     display: flex;
@@ -46,5 +49,29 @@ nav{
 }
 .logo{
     font-size: 30px;
+    font-weight: 900;
 }
 
+/* hero styles */
+.hero-container{
+    max-width: 905px;
+    height: 237px;
+    margin: 0 auto;
+    text-align: center;
+}
+.first-content{
+    font-size: 55px;
+    color: #252432;
+    font-weight: bold;
+    margin-top: 100px;
+}   
+.first-content h3{
+    margin-bottom: 30px;
+}
+.hero-container button{
+    margin-bottom: 100px;
+}
+
+.second-btn{
+    margin-bottom: 100px;
+}
